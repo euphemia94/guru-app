@@ -7,7 +7,7 @@ it('Assertions Demo', () => {
 
     cy.get('#query-btn')
 
-    .should('contain','Button')
+    .should('contain','Button')//
 
     .and('have.class','query-btn')
 
